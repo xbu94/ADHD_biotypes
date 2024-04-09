@@ -144,26 +144,7 @@ end
 [PLS1w,x1] = sort(stats.W(:,1),'descend');
 PLS1ids=gene_name(x1);
 geneindex1=geneindex(x1);
-%PLS1_ROIscores=XS(:,1);
-%save([data_dir,'GeneAssociation_Main\PLS1_ROIscore.mat'],'PLS1_ROIscores');
-%csvwrite([data_dir,'GeneAssociation_Main\PLS1_ROIscores.csv'],XS(:,1));
-%PLS1_score=XS(:,1);
-
-%[R2,p2]=corr(XS(:,2),MRIdata);
-%if R2(1,1)<0
-%    stats.W(:,2)=-1*stats.W(:,2);
-%    XS(:,2)=-1*XS(:,2);
-%end
-%[PLS2w,x2] = sort(stats.W(:,2),'descend');
-%PLS2ids=genes(x2);
-%geneindex2=geneindex(x2);
-%PLS2_ROIscores_280=XS(:,2);
-%save([data_dir,'GeneAssociation_Main\PLS2_ROIscore.mat'],'PLS2_ROIscores_280');
-%csvwrite([data_dir,'GeneAssociation_Main\PLS2_ROIscores.csv'],XS(:,2));
-%PLS2_score=XS(:,2);
-
 PLS1weights = zeros(length(gene_name),bootnum);
-%PLS2weights = zeros(10027,10000);
 
 parfor i=1:bootnum
     myresample = randsample(size(X,1),size(X,1),1);
@@ -177,14 +158,7 @@ parfor i=1:bootnum
     if corr(PLS1w,newW)<0 % the sign of PLS components is arbitrary - make sure this aligns between runs
         newW=-1*newW;
     end
-    PLS1weights(:,i) = newW;%store (ordered) weights from this bootstrap run
-    
-    %temp=stats.W(:,2);%extract PLS2 weights
-    %newW=temp(x2); %order the newly obtained weights the same way as initial PLS 
-    %if corr(PLS2w,newW)<0 % the sign of PLS components is arbitrary - make sure this aligns between runs
-    %    newW=-1*newW;
-    %end
-    %PLS2weights(:,i) = newW; %store (ordered) weights from this bootstrap run    
+    PLS1weights(:,i) = newW;%store (ordered) weights from this bootstrap run   
 end
 
 PLS1sw = std(PLS1weights');
