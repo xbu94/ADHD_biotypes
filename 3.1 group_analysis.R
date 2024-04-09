@@ -5,7 +5,7 @@ library(car)
 library(emmeans)
 library(effectsize)
 
-setwd("D:/Helab/ADHDsubtyping/Stats/subtyping_nm_gender/subgroup_analysis_nmgender/CT_subtypes/combat/")
+setwd("D:/Helab/ADHDsubtyping/Stats/CT_subtypes/")
 
 adhd = read.csv('./adhd_ct_combat.csv')
 hc = read.csv('./hc_ct_combat.csv')
