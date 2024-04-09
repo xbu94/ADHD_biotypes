@@ -197,14 +197,3 @@ for i=1:length(gene_name)
   fprintf(fid1,'%s, %d, %f\n', PLS1{i},geneindex1(i), Z1(i));
 end
 fclose(fid1);
-
-%PLS2sw = std(PLS2weights');
-%temp2=PLS2w./PLS2sw';
-%[Z2,ind2]=sort(temp2,'descend');
-%PLS2=PLS2ids(ind2);
-%geneindex2=geneindex2(ind2);
-%fid2 = fopen([data_dir,'GeneAssociation_Main\PLS2_geneWeights.csv'],'w');
-%for i=1:length(genes)
-%  fprintf(fid2,'%s, %d, %f\n', PLS2{i},geneindex2(i), Z2(i));
-%end
-%fclose(fid2);
