@@ -1,7 +1,7 @@
 %% PLS analysis for gene_brain
 data_dir = 'D:\Helab\ADHDsubtyping\AHBA\pls_gene\CTsubtypes\SAspin\weights_disorders\';
 cortical_t = load('D:\Helab\ADHDsubtyping\AHBA\surrogatemap\t_CTsubtype1vs0_unth.txt');
-gene = csvread('D:\Helab\ADHDsubtyping\AHBA\pls_gene\CTsubtypes\SAspin\weights_disorders\ADHDexpression.csv',1,0);
+gene = csvread('D:/Helab/ADHDsubtyping/AHBA/gene_expression_on_brain/left_DS01_expression.csv',1,0);
 X = zscore(gene);
 Y = zscore(cortical_t);
 dim = 5;
