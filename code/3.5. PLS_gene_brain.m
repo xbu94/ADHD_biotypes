@@ -21,7 +21,7 @@ if R1(3,1)<0
     XS(:,3)=-1*XS(:,3);
 end
 %% spatial autocorrelation corrected permutation test to assess the significance of PLS component variance explained ratios
-surrogate_tmaps_CTsubtype1vs0_5000 = csvread('D:/Helab/ADHDsubtyping/AHBA/cor_GeneExpression_BrainDiffer/nullspin_tmap5000_subtype1_unth.csv',1,0);
+surrogate_tmaps_CTsubtype1vs0_5000 = csvread('D:/Helab/ADHDsubtyping/AHBA/nullspin_tmap5000_subtype1_unth.csv',1,0);
 PCTVARrand = zeros(5000,dim);
 Rsq = zeros(5000,1);
 for j=1:5000
