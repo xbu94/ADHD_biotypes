@@ -1,5 +1,5 @@
 %% PLS analysis for brain_symptoms
-data_dir = 'D:\Helab\ADHDsubtyping\Stats\subtyping_nm_gender\subgroup_analysis_nmgender\pls\CTsubtypes\';
+data_dir = 'D:\Helab\ADHDsubtyping\Stats\pls\CTsubtypes\';
 brain = csvread([data_dir,'symptoms_all\z_ct1_clinic.csv'],1,1);
 clinic1 = readtable([data_dir,'symptoms_all\CTsubtype1_clinic.csv']);
 clinic2 = readtable([data_dir,'symptoms_all\CTsubtype2_clinic.csv']);
