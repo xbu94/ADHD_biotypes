@@ -1,1 +1,1 @@
-We provided raw cortical thickness for 219 parcellations estimated by FreeSurfer, cortical thickness deviations (Z-score), and participants demographic infomation.
+We provided raw cortical thickness for 219 parcellations estimated by FreeSurfer, cortical thickness deviations (Z-score) estimated by normative modeling, and participants demographic infomation.
