@@ -17,4 +17,6 @@
    medication response: 3.3 repeated_measure_drugeffect.R
    
    gene expression analysis: 3.4 PLS_gene_brain.m
+
+   spin test: https://github.com/frantisekvasa/rotate_parcellation.
    
