@@ -4,7 +4,7 @@ library(ggplot2)
 library(car)
 library(dplyr)
 library(HH)
-setwd("D:/Helab/ADHDsubtyping/Stats/subtyping_nm_gender/subgroup_analysis_nmgender/drugeffect")
+setwd("D:/Helab/ADHDsubtyping/Stats/drugeffect")
 
 ## Before-after treatment response by repeated measure ANOVA
 # full model: 3 factor ANOVA
