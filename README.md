@@ -48,7 +48,7 @@ Data analysis was performed using MATLAB R2021b, Python v3.8, and R v4.2.2.
 ## **Data**
 1. Demographic and clinical information for all participants and ADHD subtypes: demographic_ADHD.csv, demographic_TDC.csv, and ADHDsubtypes_info.csv
 
-2. Follow-up treatment information for ADHD: ADHDsubtypes_treatment.csv
+2. Follow-up treatment information for ADHD subtypes: ADHDsubtypes_treatment.csv
 
 3. Raw regional cortical thickness for each participant: cortical_thickness_ADHD.csv and cortical_thickness_TDC.csv
 
