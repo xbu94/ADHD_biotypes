@@ -1,4 +1,4 @@
-id,sex,age,site,drug
+id,sex,age,site,medication_history
 sub-C0001,1,9.833333333,3,0
 sub-C0002,0,10.83333333,3,0
 sub-C0003,1,13.33333333,3,0
