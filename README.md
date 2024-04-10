@@ -1,4 +1,4 @@
-# **Normative modeling of brain morphology reveals ADHD biological subtypes**
+# **Normative growth modeling of brain morphology reveals neuroanatomical heterogeneity and biological subtypes in children with ADHD**
 
 This repository provides main code, relevant toolbox, and data for manuscript "Bu, X., Zhao, Y., Zheng, X., Fu, Z., Zhang, K., Sun, X., Cui, Z., Xia, M., Ma, L., Liu, N., Lu, J., Zhao, G., Ding, Y., Deng, Y., Wang, J., Chen, R., Zhang, H., Men, W., Wang, Y., Gao, J., Tan, S., Sun, L., Qin, S., Tao, S., Wang, Y., Dong, Q., Cao, Q., Yang, L., & He, Y. (2024). Normative growth modeling of brain morphology reveals neuroanatomical heterogeneity and biological subtypes in children with ADHD. bioRxiv https://www.biorxiv.org/content/10.1101/2024.03.16.582202v1."
 
