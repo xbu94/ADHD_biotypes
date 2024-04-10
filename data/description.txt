@@ -1,1 +1,17 @@
 We provided raw cortical thickness for 219 parcellations estimated by FreeSurfer, cortical thickness deviations (Z-score) estimated by normative modeling, and participants demographic infomation.
+
+Phenotypic Key
+
+Sex
+1 boy
+2 girl
+
+Site
+1 BNU cohort (Huilong Guan Hospital)
+2 BNU cohort (PKU）
+3 PKU6 Hospital cohort
+4 ADHD200 study(PKU site)
+
+Medication history
+0 drug naive
+1 medicated before MR scan
