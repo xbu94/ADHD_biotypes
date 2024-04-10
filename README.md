@@ -39,7 +39,7 @@ The main analyses were carried out using following codes:
    
    medication response: repeated_measure_drugeffect.R
    
-   gene expression analysis: PLS_gene_brain.m
+   gene expression analysis: AHBA_gene_expression.py, PLS_gene_brain.m
 
    spin test: https://github.com/frantisekvasa/rotate_parcellation.
 
