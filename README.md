@@ -46,11 +46,13 @@ The main analyses were carried out using following codes:
 Data analysis was performed using MATLAB R2021b, Python v3.8, and R v4.2.2.
    
 ## **Data**
-1. Basic demographic information for all participants and ADHD subtypes: demographic_ADHD.csv, demographic_TDC.csv, and ADHDsubtypes_info.csv
+1. Demographic and clinical information for all participants and ADHD subtypes: demographic_ADHD.csv, demographic_TDC.csv, and ADHDsubtypes_info.csv
 
-2. Raw regional cortical thickness for each participant: cortical_thickness_ADHD.csv and cortical_thickness_TDC.csv
+2. Follow-up treatment information for ADHD: ADHDsubtypes_treatment.csv
 
-3. Cortical thickness devations estimated form normative modeling: cortical thickness deviation.csv
+3. Raw regional cortical thickness for each participant: cortical_thickness_ADHD.csv and cortical_thickness_TDC.csv
+
+4. Cortical thickness devations estimated form normative modeling: cortical thickness deviation.csv
 
 ## **References**
 1. Cammoun L, Gigandet X, Meskaldji D, et al., Mapping the human connectome at multiple scales with diffusion spectrum MRI. J Neurosci Meth 2012; 203: 386-97.
